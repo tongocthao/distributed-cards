@@ -1,0 +1,49 @@
+/*
+
+Typefaces:* `Georgia`, `Denk One`
+Line-heights:* `1.5`
+Colours:* `#fff`, `#f5f2f0`, `#ede3db`, `#623b0c`, `#000`
+Margins:* `1.5rem`
+Paddings:* `.5em .75em .6em`, `1rem`
+Gaps:* `1rem`
+Border-thicknesses*: `2px`
+Corner-radii:* `8px`
+
+*/
+
+html {
+  box-sizing: border-box;
+  font-family: Georgia, serif;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 1rem;
+  background-color: #fff;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ol {
+  display: grid;
+  list-style: none;
+  grid-template-columns: 1fr 1fr;
+}
+
+img {
+  width: 100%;
+}
+
+ul {
+  grid-column: auto;
+}
