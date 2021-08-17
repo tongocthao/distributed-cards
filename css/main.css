@@ -26,27 +26,42 @@ body {
   background-color: #fff;
 }
 
-header {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
+h1 {
+  font-family: 'Denk One', sans-serif;
+  color: #623b0c;
+}
+
+h2 {
+  font-family: 'Denk One', sans-serif;
+  color: #623b0c;
 }
 
 ol {
   display: grid;
   list-style: none;
-  background: #ede3db;
   grid-template-columns: 1fr 1fr;
-  border: 2px solid #623b0c;
   gap: 1rem;
   border-radius: 8px;
+  padding-left: 0;
 }
 
 li {
+  display: flex;
+  flex-direction: column;
   border: 2px solid #623b0c;
   border-radius: 8px;
+  background: #ede3db;
+  padding: .6em;
+}
+
+a {
+  border-radius: 8px;
+  background: #623b0c;
+  padding: .6em;
+  color: #fff;
+  justify-content: space-between;
+  text-decoration: none;
+  margin-top: auto;
 }
 
 img {
