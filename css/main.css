@@ -37,7 +37,16 @@ header {
 ol {
   display: grid;
   list-style: none;
+  background: #ede3db;
   grid-template-columns: 1fr 1fr;
+  border: 2px solid #623b0c;
+  gap: 1rem;
+  border-radius: 8px;
+}
+
+li {
+  border: 2px solid #623b0c;
+  border-radius: 8px;
 }
 
 img {
