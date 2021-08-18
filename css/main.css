@@ -22,7 +22,7 @@ html {
 }
 
 body {
-  margin: .75em;
+  margin: 0;
   background-color: #fff;
 }
 
@@ -65,7 +65,7 @@ a {
   color: #fff;
   justify-content: space-between;
   text-decoration: none;
-  margin-top: auto;
+  margin-top: 0;
 }
 
 img {
